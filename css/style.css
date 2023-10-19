@@ -1,0 +1,103 @@
+body {
+    margin: auto;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+    /* Barra nav superiore */
+
+#up {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 5px;
+    z-index: 500;
+}
+
+.top-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    color: white;
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.top-controls i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Barra nav inferiore */
+
+.bottom {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(46, 46, 46);
+
+}
+
+.bottom i {
+    font-size: 28px;
+    padding: 10px;
+}
+
+.audio-video {
+    flex-basis: 20%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.labels {
+    display: flex;
+    font-size: 11px;
+    justify-content: space-evenly;
+}
+
+.main-controls {
+    flex-basis: 50%;
+}
+
+.end-meeting {
+    flex-basis: 10%;
+    color: red;
+
+}
+
+.labels, .nine div {
+    flex-basis: calc(100% / 9);
+}
+
+.icons, .nine i {
+    flex-basis: calc(100% / 9);
+}
+
+.end-meeting {
+    padding-right: 15px;
+    text-align: right;
+}
