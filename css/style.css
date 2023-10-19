@@ -101,3 +101,34 @@ body {
     padding-right: 15px;
     text-align: right;
 }
+
+/* sezione gallery */
+
+.gallery {
+    padding-top: 50px;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.card {
+    flex-basis: calc(100vw / 7 - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+.card img {
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
